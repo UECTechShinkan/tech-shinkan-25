@@ -8,6 +8,5 @@ createRoot(document.getElementById('root')).render(
     <Router basename="/tech-shinkan-25">
       <App />
     </Router>
-    <App />
-  </StrictMode>,
+  </StrictMode>
 )

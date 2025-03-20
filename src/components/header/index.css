@@ -30,31 +30,34 @@
 }
 
 .nav a {
-	display: block; /* ブロック要素にして、リンク全体をクリックできるように */
-	padding: 10px 20px; /* 上下左右にパディングを追加 */
+	display: block;
+	position: relative;
+	padding: 10px 20px;
 	text-decoration: none;
 	color: rgb(125, 121, 121);
 }
 
 .nav a::after {
+	content: "";
 	position: absolute;
 	left: 0;
-	content: "";
 	width: 100%;
-	height: 1px;
+	height: 2px;
 	background: #000000;
-	bottom: -1px;
-	transform: scale(0, 1);
-	transform-origin: left top;
-	transition: transform 0.3s;
+	bottom: 4px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.nav a:hover::after {
+	visibility: visible;
+	bottom: 0;
+	opacity: 1;
 }
 
 .nav a:hover {
 	color: #000000;
-}
-
-.nav a:hover::after {
-	transform: scale(1, 1);
 }
 
 .menuButton {
@@ -64,6 +67,7 @@
 	border-width: 1px;
 	border-color: rgb(125, 121, 121);
 	border-radius: 0.2rem;
+	padding: 5px;
 }
 
 .bar {
@@ -112,33 +116,6 @@
 	position: relative;
 	text-decoration: none;
 	color: rgb(125, 121, 121);
-	square_btn {
-		display: block;
-		position: relative;
-		width: 30px;
-		height: 30px;
-		border: 2px solid #333;
-		background: #fff;
-	}
-
-	.square_btn::before,
-	.square_btn::after {
-		content: "";
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 3px;
-		height: 27px;
-		background: #333;
-	}
-
-	.square_btn::before {
-		transform: translate(-50%, -50%) rotate(45deg);
-	}
-
-	.square_btn::after {
-		transform: translate(-50%, -50%) rotate(-45deg);
-	}
 }
 
 .drawerNav a::after {
@@ -160,20 +137,16 @@
 }
 
 .drawerContent {
-	margin-top: 20%;
+	margin-top: 45%;
 }
 
-square_btn {
-	display: block;
-	position: relative;
-	width: 30px;
-	height: 30px;
-	border: 2px solid #333;
-	background: #fff;
+.square_btn {
+	padding: 10px;
 }
 
 .square_btn::before,
 .square_btn::after {
+	display: block;
 	content: "";
 	position: absolute;
 	top: 4%;
