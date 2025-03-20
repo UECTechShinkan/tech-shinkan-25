@@ -10,24 +10,24 @@ export const Header = () => {
 		setDrawerOpen(!drawerOpen);
 	};
 
-  return (
-    <div className="header">
-      <Container maxWidth="lg" className="header">
-        <h3 className="title">技術系合同新歓2025 特設サイト</h3>
-        <ul className="nav">
-          <li>
-            <a href="#about">概要</a>
-          </li>
-          <li>
-            <a href="#contents">開催内容</a>
-          </li>
-          <li>
-            <a href="#circle">参加団体</a>
-          </li>
-          <li>
-            <a href="#past">過去の開催</a>
-          </li>
-          <li>
+	return (
+		<div className="header">
+			<Container maxWidth="lg" className="header">
+				<h3 className="title">技術系合同新歓2025 特設サイト</h3>
+				<ul className="nav">
+					<li>
+						<a href="#about">概要</a>
+					</li>
+					<li>
+						<a href="#contents">開催内容</a>
+					</li>
+					<li>
+						<a href="#circle">参加団体</a>
+					</li>
+					<li>
+						<a href="#past">過去の開催</a>
+					</li>
+					<li>
 						<a href="#contact">お問い合わせ</a>
 					</li>
 				</ul>
