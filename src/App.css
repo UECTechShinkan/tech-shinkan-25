@@ -2,6 +2,7 @@
 
 html {
 	scroll-margin-top: 100px;
+	overscroll-behavior: none;
 }
 body {
 	margin: 0;
