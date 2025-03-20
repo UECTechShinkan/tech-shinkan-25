@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 0.75rem;
+    width: 18rem;
+    box-shadow: 0 0 6px lightgray;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    text-transform: none;
+}
+
+.group-container {
+    display: flex;
+    justify-content: center;
+}
