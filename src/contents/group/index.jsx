@@ -126,6 +126,14 @@ const robo = new circleData(
 	"",
 );
 
+const teres = new circleData(
+	"TeRes",
+	"images/teres.png",
+	" TeResでは主にPCを用いた創作を行っています。 ゲームなどの制作を行う PG（Programming） 班、 デジタルイラストを描くイラスト班、 PC上で作曲を行う DTM（DeskTop Music） 班、 映像の制作を行うスタジオ班の 4班に分かれて活動しています。",
+	"http://www.teres.club.uec.ac.jp",
+	"",
+);
+
 const circleList = [
 	koken,
 	team411,
@@ -137,6 +145,7 @@ const circleList = [
 	wings,
 	musen,
 	robo,
+	teres
 ];
 
 const Group = () => {
