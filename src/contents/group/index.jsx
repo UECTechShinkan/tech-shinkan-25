@@ -75,7 +75,7 @@ const vll = new circleData(
 	"images/VLL.png",
 	"バーチャルライブ研究会（VLL）では、様々なバーチャルシンガーたちが登場するファンメイドの3DCGライブ「MIKUEC」や、バーチャルアイドル「歌奏絆」の制作運営などに関わる幅広い活動を行っています。新歓ライブなどの企画も開催するので、まずは一度遊びに来てみませんか？",
 	"https://mikuec.com/",
-	"",
+	"https://x.com/uec_VL_Lab",
 );
 
 const x68x0 = new circleData(
