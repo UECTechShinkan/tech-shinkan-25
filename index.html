@@ -10,11 +10,15 @@
     <meta property="og:image" content="https://www.tech-shinkan.club.uec.ac.jp/images/ogp.png">
     <meta property="og:url" content="https://www.tech-shinkan.club.uec.ac.jp/">
     <meta property="og:type" content="website">
-    <meta http-equiv="Refresh" content="0; URL=https://uectechshinkan.github.io/tech-shinkan-25/" />
     <title>技術系サークル合同新歓2025</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if(window.location.pathname.endsWith("/tech-shinkan-25/")){
+        window.location.href="/";
+      }
+    </script>
   </body>
 </html>
