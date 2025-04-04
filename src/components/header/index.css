@@ -112,7 +112,8 @@
 
 .drawerNav a {
 	display: block;
-	padding: 10px 20px;
+	padding: 10px 30px;
+	white-space: nowrap;
 	position: relative;
 	text-decoration: none;
 	color: rgb(125, 121, 121);
@@ -133,11 +134,12 @@
 	color: #000000;
 }
 .drawerNav {
-	padding-right: 5%;
+	padding-right: 10%;
 }
 
 .drawerContent {
 	margin-top: 45%;
+	padding-right: 5%;
 }
 
 .square_btn {

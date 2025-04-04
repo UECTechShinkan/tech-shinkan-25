@@ -15,16 +15,12 @@ const Place = () => {
 				</thead>
 				<tbody>
 					<tr>
-						<td>4/7(月)</td>
-						<td>未定</td>
+						<td>4/7(月)<br/>4/13日(日)<br/>(14:00 ~ 17:00)</td>
+						<td>7日&nbsp;B102<br/>13日&nbsp;B202</td>
 						<td>LT会</td>
 					</tr>
 					<tr>
-						<td rowSpan={2}>4/4(金) ~ 4/13(日)</td>
-						<td>未定</td>
-						<td>ポスター展示</td>
-					</tr>
-					<tr>
+						<td>4/4(金)<br/>4/7(月)<br/>4/13(日)</td>
 						<td>メインストリート</td>
 						<td>チラシ配布</td>
 					</tr>
